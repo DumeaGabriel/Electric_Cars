@@ -1,0 +1,123 @@
+body{
+    background: linear-gradient(to left,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(./pareriBackground.jpg);
+
+    background-size: cover;
+}
+
+.content{
+    background-color: black;
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+}
+
+.pros{
+    margin-left: 100px;
+    margin-top: 30px;
+    position: absolute;
+    background: linear-gradient(to left,rgba(0, 0, 0, 0.589)50%,rgba(0,0,0,0.589)50%), url(./pros.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 50px 100px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    width: 35vw;
+    height: 80vh;
+}
+
+.pros h1{
+    font-size: 50px;
+    color: aliceblue;
+    display:grid;
+    margin-top: 50%;
+    margin-left: 45%;
+    transition: 1s;
+    display: block;
+}
+
+.pros:hover{
+    transform: scale(.95);
+    transition: 0.5s;
+}
+.pros:hover h1{
+    transition: 0.5s;
+    font-size: 30px;
+    color: aliceblue;
+    display:grid;
+    margin-left: 45%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    display: block;
+
+}
+
+.pros ul{
+    margin: auto;
+    display: none;
+
+}
+.pros:hover ul{
+    color:azure;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    transition: 0.5s;
+}
+
+.pros:hover ul li{
+    margin-bottom: 10px;
+}
+
+
+.cons{
+    margin-left: 50vw;
+    margin-top: 30px;
+    position: absolute;
+    background: linear-gradient(to left,rgba(0, 0, 0, 0.589)50%,rgba(0,0,0,0.589)50%), url(./cons.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 50px 100px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    width: 35vw;
+    height: 80vh;
+}
+
+.cons:hover{
+    transform: scale(.95);
+    transition: 0.5s;
+}
+
+.cons h1{
+    font-size: 50px;
+    color: aliceblue;
+    display:grid;
+    margin-top: 50%;
+    margin-left: 45%;
+    transition: 1s;
+    display: block;
+}
+
+.cons:hover h1{
+    transition: 0.5s;
+    font-size: 30px;
+    color: aliceblue;
+    display:grid;
+    margin-left: 45%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    display: block;   
+}
+
+.cons ul{
+    display: none;
+}
+
+.cons:hover ul{
+    color:azure;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    transition: 0.5s;
+}
